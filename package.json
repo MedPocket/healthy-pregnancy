@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Healthy Pregnancy Guide",
+  "main": "index.js",
+  "scripts": {
+    "dev": "blume dev",
+    "build": "blume build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedPocket/healthy-pregnancy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MedPocket/healthy-pregnancy/issues"
+  },
+  "homepage": "https://github.com/MedPocket/healthy-pregnancy#readme",
+  "dependencies": {
+    "blume": "^1.1.2"
+  }
+}
