@@ -5,7 +5,14 @@ export default defineConfig({
   description:
     "Cẩm nang dành cho bạn: Thai kỳ khỏe mạnh. Ấn bản thứ 12 • Bản dịch tiếng Việt từ Cleveland Clinic.",
 
-  // Theme styling based on the user's requested Medical Teal style
+  feedback: false,
+
+  github: {
+    owner: "MedPocket",
+    repo: "healthy-pregnancy",
+    branch: "main",
+  },
+
   theme: {
     accent: "teal",
     radius: "md",
@@ -17,11 +24,22 @@ export default defineConfig({
     },
   },
 
+  seo: {
+    og: {
+      fonts: ["Geist"],
+    },
+  },
+
   content: {
     root: "docs",
   },
 
   deployment: {
     output: "static",
+    site:
+      process.env.NETLIFY === "true"
+        ? process.env.URL || "https://healthy-pregnancy.netlify.app"
+        : "https://medpocket.github.io",
+    base: process.env.NETLIFY === "true" ? "/" : "/healthy-pregnancy",
   },
 });

@@ -1,5 +1,4 @@
 node_modules/
 .blume/
 dist/
-npm-debug.log
-blume_dev.log
+*.log
