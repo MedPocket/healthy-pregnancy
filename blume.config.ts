@@ -13,6 +13,12 @@ export default defineConfig({
     branch: "main",
   },
 
+  i18n: {
+    defaultLocale: "vi",
+    locales: [{ code: "vi", label: "Tiếng Việt" }],
+    hideDefaultLocalePrefix: true,
+  },
+
   theme: {
     accent: "teal",
     radius: "md",
