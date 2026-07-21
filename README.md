@@ -14,3 +14,7 @@ bun dev
 ```
 
 Open your web browser and navigate to http://localhost:4321/healthy-pregnancy.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

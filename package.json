@@ -3,14 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "Healthy Pregnancy Guide",
-  "homepage": "https://github.com/MedPocket/healthy-pregnancy#readme",
-  "bugs": {
-    "url": "https://github.com/MedPocket/healthy-pregnancy/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MedPocket/healthy-pregnancy.git"
-  },
   "type": "module",
   "scripts": {
     "dev": "blume dev",
