@@ -1,2 +1,20 @@
-# healthy-pregnancy
-Healthy Pregnancy Guide
+# Healthy Pregnancy
+
+**Healthy Pregnancy** is built using the [**Blume**](https://useblume.dev) documentation framework (powered by Astro and Vite).
+
+## Develop locally
+
+To get started, make sure you have [Node.js](https://nodejs.org) and [Bun](https://bun.com) installed on your system. Then, follow these steps:
+
+```bash
+git clone https://github.com/MedPocket/healthy-pregnancy
+cd healthy-pregnancy
+bun install
+bun dev
+```
+
+Open your web browser and navigate to http://localhost:4321/healthy-pregnancy.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
