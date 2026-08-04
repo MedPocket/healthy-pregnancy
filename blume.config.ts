@@ -30,12 +30,6 @@ export default defineConfig({
     },
   },
 
-  seo: {
-    og: {
-      fonts: ["Geist"],
-    },
-  },
-
   content: {
     root: "docs",
   },
