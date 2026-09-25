@@ -19,27 +19,24 @@ export default defineConfig({
     hideDefaultLocalePrefix: true,
   },
 
-  theme: {
-    accent: "teal",
-    radius: "md",
-    mode: "light", // default to light mode to resemble the PDF book style
-    fonts: {
-      display: "inter-tight",
-      body: "inter",
-      mono: "ibm-plex-mono",
+  seo: {
+    og: {
+      site: false,
+      logo: false,
     },
   },
 
-  content: {
-    root: "docs",
+  theme: {
+    accent: "blue",
+    radius: "md",
+    mode: "light",
+    fonts: {
+      body: "inter",
+      display: "inter",
+    },
   },
 
   deployment: {
-    output: "static",
-    site:
-      process.env.NETLIFY === "true"
-        ? process.env.URL || "https://healthy-pregnancy.netlify.app"
-        : "https://medpocket.github.io",
     base: process.env.NETLIFY === "true" ? "/" : "/healthy-pregnancy",
   },
 });
