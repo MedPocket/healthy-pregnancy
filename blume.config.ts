@@ -35,6 +35,10 @@ export default defineConfig({
     },
   },
 
+  markdown: {
+    externalLinks: true,
+  },
+
   deployment: {
     base: process.env.NETLIFY === "true" ? "/" : "/healthy-pregnancy",
   },
