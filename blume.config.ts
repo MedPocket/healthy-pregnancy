@@ -3,7 +3,7 @@ import { defineConfig } from "blume";
 export default defineConfig({
   title: "Thai kỳ khỏe mạnh",
   description:
-    "Cẩm nang dành cho bạn: Thai kỳ khỏe mạnh. Ấn bản thứ 12 • Bản dịch tiếng Việt từ Cleveland Clinic.",
+    "Cẩm nang dành cho bạn: Thai kỳ khỏe mạnh. Ấn bản thứ 12 từ Cleveland Clinic.",
 
   feedback: false,
 

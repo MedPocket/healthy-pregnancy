@@ -1,6 +1,6 @@
 # Healthy Pregnancy
 
-**Healthy Pregnancy** is built using the [**Blume**](https://useblume.dev) documentation framework (powered by Astro and Vite).
+**Healthy Pregnancy** is built using the [**Blume**](https://useblume.dev) documentation framework.
 
 ## Develop locally
 
