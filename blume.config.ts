@@ -2,8 +2,7 @@ import { defineConfig } from "blume";
 
 export default defineConfig({
   title: "Thai kỳ khỏe mạnh",
-  description:
-    "Cẩm nang dành cho bạn: Thai kỳ khỏe mạnh. Ấn bản thứ 12 • Bản dịch tiếng Việt từ Cleveland Clinic.",
+  description: "Cẩm nang dành cho bạn: Thai kỳ khỏe mạnh. Ấn bản thứ 12 từ Cleveland Clinic.",
 
   feedback: false,
 
@@ -27,13 +26,17 @@ export default defineConfig({
   },
 
   theme: {
-    accent: "blue",
+    accent: "teal",
     radius: "md",
     mode: "light",
     fonts: {
       body: "inter",
       display: "inter",
     },
+  },
+
+  markdown: {
+    externalLinks: true,
   },
 
   deployment: {
