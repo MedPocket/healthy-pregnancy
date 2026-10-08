@@ -1,5 +1,7 @@
 # Healthy Pregnancy
 
+[![GitHub Pages](https://github.com/MedPocket/healthy-pregnancy/actions/workflows/pages.yml/badge.svg)](https://medpocket.github.io/healthy-pregnancy)
+
 **Healthy Pregnancy** is built using the [**Blume**](https://useblume.dev) documentation framework.
 
 ## Develop locally
