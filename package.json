@@ -8,16 +8,14 @@
     "dev": "blume dev",
     "build": "blume build",
     "preview": "blume preview",
-    "lint": "oxlint",
-    "fmt": "oxfmt",
-    "typecheck": "blume check"
+    "check": "oxlint && oxfmt && blume check"
   },
   "dependencies": {
-    "blume": "^2.1.0"
+    "blume": "^2.2.2"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
-    "oxfmt": "^0.71.0",
-    "oxlint": "^1.86.0"
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0"
   }
 }
