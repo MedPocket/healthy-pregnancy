@@ -1,49 +1,31 @@
 ---
 import Icon from "blume/components/Icon.astro";
-
-const currentYear = new Date().getFullYear();
 ---
 
-<footer class="border-t border-border py-8 text-sm text-muted-foreground">
-  <div class="mx-auto max-w-content px-4 md:px-6">
-    <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-      <div class="space-y-1">
-        <div class="font-semibold text-foreground">Thai kỳ khỏe mạnh</div>
-        <p class="max-w-md text-xs leading-relaxed text-muted-foreground">
-          Cẩm nang dành cho bạn: Thai kỳ khỏe mạnh. Ấn bản thứ 12 từ Cleveland Clinic.
-        </p>
-      </div>
-
-      <div class="flex flex-wrap items-center gap-4 text-xs font-medium">
-        <a
-          href="https://github.com/MedPocket/healthy-pregnancy"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-foreground"
-        >
-          <span>GitHub</span>
-          <Icon name="external-link" size={14} />
-        </a>
-      </div>
+<footer class="border-t border-border py-6 text-sm text-muted-foreground">
+  <div
+    class="mx-auto flex max-w-content flex-wrap items-center justify-center gap-x-2 gap-y-1 px-4 text-center leading-normal"
+  >
+    <div class="inline-flex items-center gap-1.5">
+      <span>made with</span>
+      <Icon
+        name="heart"
+        class="inline-block fill-red-500 stroke-red-500 text-red-500"
+        size={16}
+        label="love"
+      />
+      <span>by</span>
+      <span class="font-medium text-foreground">MedPocket</span>
     </div>
-
-    <div class="mt-6 flex flex-col gap-3 border-t border-border/60 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
-      <p>&copy; {currentYear} MedPocket. Tất cả các quyền được bảo lưu.</p>
-
-      <div class="flex flex-wrap items-center gap-1 text-muted-foreground">
-        <span>Thực hiện với</span>
-        <Icon
-          name="heart"
-          class="fill-red-500 stroke-red-500 text-red-500 inline-block"
-          size={14}
-          label="yêu thương"
-        />
-        <span>bởi</span>
-        <span class="font-medium text-foreground">MedPocket</span>
-        <span class="mx-1 text-muted-foreground/40">&bull;</span>
-        <span>Sáng lập bởi</span>
-        <span class="font-medium text-foreground">Long Nhat Nguyen</span>
-      </div>
+    <Icon
+      name="delta"
+      class="inline-block fill-teal-500 stroke-teal-500 text-teal-500"
+      size={16}
+      label="delta"
+    />
+    <div class="inline-flex items-center gap-1.5">
+      <span>founder by</span>
+      <span class="font-medium text-foreground">Long Nhat Nguyen</span>
     </div>
   </div>
 </footer>
