@@ -6,12 +6,6 @@ export default defineConfig({
 
   feedback: false,
 
-  github: {
-    owner: "MedPocket",
-    repo: "healthy-pregnancy",
-    branch: "main",
-  },
-
   i18n: {
     defaultLocale: "vi",
     locales: [{ code: "vi", label: "Tiếng Việt" }],
