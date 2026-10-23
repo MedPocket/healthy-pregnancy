@@ -34,10 +34,6 @@ export default defineConfig({
   },
 
   deployment: {
-    site:
-      process.env.NETLIFY === "true"
-        ? process.env.URL || "https://healthy-pregnancy.netlify.app"
-        : "https://medpocket.github.io",
     base: process.env.NETLIFY === "true" ? "/" : "/healthy-pregnancy",
   },
 });
